@@ -1,19 +1,10 @@
-# todo-list-3
 
-## Project setup
-```
-npm install
-```
+##FALTAN LOS ESTILOS
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+VAMOS A METERLE BOOTSTRAP
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## -----------------------------------
+##APP PARA MANEJAR LA LISTA DE TAREAS
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+PODEMOS CREAR TAREAS, TACHARLAS CUANDO ESTÉN COMPLETAS Y ELIMINARLAS UNA VEZ TERMINADAS.
+LUEGO TENEMOS 3 BOTONES QUE NOS AYUDAN A VER LAS TAREAS TACHADAS, LAS TAREAS POR REALIZAR Y TODAS LAS TAREAS (TACHADAS Y NO TACHADAS)
