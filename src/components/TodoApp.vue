@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>ToDo List</h1>
+    <h1 class="titulo-1">Lista de Tareas</h1>
     <todo-form />
     <todo-list />
   </div>
@@ -32,4 +32,20 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body{
+  background-color: #2a9d8f;
+}
+
+.container {
+  margin: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.titulo-1 {
+  font-size: 56px;
+  color: #264653;
+  text-align: center;
+}
 </style>
