@@ -1,10 +1,20 @@
 
-##FALTAN LOS ESTILOS
+# LISTADO DE TAREAS :clipboard: 
 
-VAMOS A METERLE BOOTSTRAP
+## DESCRIPCIÓN :page_with_curl:
+Sirve para apuntar un conjunto de cosas para hacer.
 
-## -----------------------------------
-##APP PARA MANEJAR LA LISTA DE TAREAS
+## TECNOLOGÍAS :computer:
+- Para crear los componentes y para el funcionamiento he usado *Vue3*.
+- Para el diseño he usado *CSS3*.
 
-PODEMOS CREAR TAREAS, TACHARLAS CUANDO ESTÉN COMPLETAS Y ELIMINARLAS UNA VEZ TERMINADAS.
-LUEGO TENEMOS 3 BOTONES QUE NOS AYUDAN A VER LAS TAREAS TACHADAS, LAS TAREAS POR REALIZAR Y TODAS LAS TAREAS (TACHADAS Y NO TACHADAS)
+## COMPONENTES :file_folder:
+- **TodoApp**: Lo que se muestra al usuario final.
+- **TodoFiltro**: Se encarga de filtrar las tareas y dividirlas en *"Por hacer"*, *"Todas las tareas"* y *"Completados"* .
+- **TodoFooter**: Nos muestra el número de tareas por hacer y nos permite eliminar todas las completadas.
+- **TodoForm**: Se trata del formulario desde el que creamos tareas.
+- **TodoItem** : Cada tarea que tenemos y nos da la opción de eliminarla.
+- **TodoList** : Forma un listado de todos los **TodoItem** y muestra los estados de cada tarea.
+
+
+
